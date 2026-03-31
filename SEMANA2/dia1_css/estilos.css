@@ -1,3 +1,29 @@
 body{
     background-color: orange;
 }
+p{
+    color: blue;
+    background-color:chartreuse ;
+}
+h2{
+    background: magenta;
+    font-size: 50px;
+}
+h3{
+    background:  green;
+    font-size: 50px;
+}
+h4{
+    background: aqua;
+    font-size: 50px;
+}
+#estado{
+    background-color: goldenrod;
+    font-size: 100px;
+}
+.btn{
+    background-color: blanchedalmond;
+}
+.texto-resaltado{
+    color: blue;
+}
