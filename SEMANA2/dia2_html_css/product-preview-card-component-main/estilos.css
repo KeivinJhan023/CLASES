@@ -2,5 +2,33 @@
 font-family: "Fraunces", serif;
 */
 body{
-    background-color: aqua;
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    border: 1px solid red;
+    height: 100vh;
+    margin: 0;
+    display: flex;/*flexbox*/
+    justify-content: center;/*aliniamiento horixontal*/
+    align-items: center;/*aliniamiento vertical*/
+}
+main{
+    border:1px solid red;
+    width: 650px;
+    display: flex;
+    min-height: 450px;
+}
+.photo{
+    width: 350px;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+
+}
+.content{
+    width: 300px;
+    padding: 28px;/*14 x2=28px*/
+    display: flex;
+    flex-direction: column;
+    gap: 21px; /*14px + 7= 21px*/
+    background-color: hsl(0, 0%, 100%);
 }
